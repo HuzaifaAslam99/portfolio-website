@@ -1,0 +1,153 @@
+@import "tailwindcss";
+
+.HomeMainCircle {
+    @apply size-[30px] flex justify-center items-center border-[1px] border-[#18C2D1] rounded-full max-[1070px]:size-[25px];
+}
+
+.SkillsMainBox{
+    @apply h-[150px] w-[130px] bg-white text-black text-[18px] font-[700] rounded-[15px] flex flex-col gap-[5px] justify-center items-center  max-[800px]:h-[120px] max-[800px]:w-[104px] max-[800px]:text-[15px]  max-[410px]:h-[96px] max-[410px]:w-[83px] max-[410px]:text-[12px]
+}
+.SkillsBox{
+  @apply w-[80px] max-[800px]:w-[64px] max-[410px]:w-[51px]
+}
+.ProjectsMainBox{
+    @apply w-[600px] h-[auto] border-[5px] border-[#18C2D1] rounded-[10px] px-[25px] flex flex-col justify-center items-center gap-[20px] py-[10px] 
+max-[1500px]:w-[480px] max-[1500px]:gap-[16px] max-[1170px]:w-[384px] max-[1170px]:gap-[10px] max-[450px]:border-[4px]
+max-[450px]:w-[307px] max-[450px]:gap-[8px] max-[360px]:w-[275px] max-[360px]:gap-[7px] max-[360px]:border-[3px]
+}
+.ProjectsMainGithub{
+    @apply bg-[#D9D9D9] size-[50px] rounded-[10px] flex flex-col justify-center items-center text-black text-[10px] font-[700]
+    max-[1500px]:size-[40px] max-[1500px]:text-[8px] max-[1170px]:size-[32px] max-[1170px]:text-[7px] max-[450px]:size-[26px] max-[450px]:text-[5px] max-[360px]:size-[23px] max-[360px]:text-[4px]
+}
+.ProjectScreenshot{
+   @apply w-[400px] max-[1500px]:w-[300px] max-[1170px]:w-[250px] max-[450px]:w-[200px] max-[360px]:w-[180px]
+}
+.ProjectTitle{
+  @apply text-white text-[24px] font-[500] max-[1500px]:text-[19px] max-[1170px]:text-[16px] max-[450px]:font-[400] max-[450px]:text-[13px] max-[360px]:text-[12px]
+}
+.ProjectTitleText{
+  @apply text-[#18C2D1] text-[16px] max-[1500px]:text-[13px] max-[1170px]:text-[11px] max-[950px]:text-center  max-[450px]:text-[9px] max-[360px]:text-[8px]
+}
+.ProjectSkills{
+  @apply w-[40px] max-[1500px]:w-[32px] max-[1500px]:h-[40px] max-[1170px]:w-[26px] max-[1170px]:h-[32px] max-[450px]:w-[21px] max-[450px]:h-[26px] max-[360px]:w-[19px] max-[360px]:h-[23px]
+}
+.ProjectGithub{
+  @apply w-[30px] max-[1500px]:w-[24px] max-[1170px]:w-[19px] max-[450px]:w-[15px] max-[360px]:w-[14px]
+}
+.ContactRow{
+  @apply flex justify-between items-center rounded-[10px] gap-[40px] max-[800px]:w-[270px] max-[800px]:leading-none max-[800px]:py-[15px]  max-[800px]:flex-col max-[800px]:border-[#18C2D1] max-[800px]:border-[2px] max-[800px]:gap-[20px] max-[460px]:w-[200px]
+}
+/* max-[550px]:gap-[20px] max-[370px]:gap-[16px] */
+.ContactTitle{
+  @apply w-[250px] text-[30px] max-[800px]:text-center max-[800px]:w-[100%] max-[800px]:text-[24px]
+}
+/* ax-[550px]:w-[122px] max-[550px]:text-[15px] max-[370px]:w-[98px] max-[370px]:text-[12px] */
+.ContactNameBox{
+  @apply w-[250px] flex justify-start items-center text-[20px] text-[white] font-[500] max-[800px]:justify-center max-[800px]:w-[100%] max-[800px]:text-[17px] max-[460px]:text-[13px]
+}
+/* max-[550px]:w-[122px] max-[550px]:text-[10px] max-[370px]:w-[98px] max-[370px]:text-[8px]  */
+.ContactNameCircle{
+  @apply size-[40px] flex justify-center items-center border-[2px] border-[white] rounded-full max-[800px]:text-[20px]  max-[800px]:font-[300] max-[800px]:border-[1px] 
+}
+/* max-[550px]:size-[20px] max-[550px]:text-[10px] max-[370px]:size-[16px] max-[370px]:text-[8px] */
+
+
+.animate-moveUp{
+  animation: var(--animate-moveUp);
+  opacity: 0;
+  animation-fill-mode: forwards; 
+}
+
+.animate-moveDown{
+  animation: var(--animate-moveDown);
+  opacity: 0;
+  animation-fill-mode: forwards; 
+}
+
+.animate-moveRight{
+  animation: var(--animate-moveRight);
+  opacity: 0;
+  animation-fill-mode: forwards; 
+}
+
+.animate-moveLeft{
+  animation: var(--animate-moveLeft);
+  opacity: 0;
+  animation-fill-mode: forwards; 
+}
+
+.animate-scaleUp{
+  animation: var(--animate-scaleUp);
+  opacity: 0;
+  animation-fill-mode: forwards; 
+}
+
+@keyframes moveUp {
+  0% { 
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% { 
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+  @keyframes moveDown {
+    0% { 
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+    100% { 
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+
+  @keyframes moveRight {
+    0% { 
+      transform: translateX(-150px);
+      opacity: 0;
+    }
+    100% { 
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+
+  @keyframes moveLeft {
+    0% { 
+      transform: translateX(150px);
+      opacity: 0;
+    }
+    100% { 
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+
+    @keyframes scaleUp {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1); 
+      opacity: 1;  
+    }
+  }
+  
+  :root {
+    --animate-moveUp: moveUp 0.6s ease-out;
+    --animate-moveRight: moveRight 0.6s ease-out;
+    --animate-moveDown: moveDown 0.6s ease-out;
+    --animate-moveLeft: moveLeft 0.6s ease-out;
+    --animate-scaleUp: scaleUp 1s ease-in-out forwards;
+  }
+  
+/* 
+  @theme {
+    --breakpoint-*: initial ;
+    --breakpoint-break: max-[900px] ;
+
+  } */
