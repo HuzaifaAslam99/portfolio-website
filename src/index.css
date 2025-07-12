@@ -37,19 +37,15 @@ max-[450px]:w-[307px] max-[450px]:gap-[8px] max-[360px]:w-[275px] max-[360px]:ga
 .ContactRow{
   @apply flex justify-between items-center rounded-[10px] gap-[40px] max-[800px]:w-[270px] max-[800px]:leading-none max-[800px]:py-[15px]  max-[800px]:flex-col max-[800px]:border-[#18C2D1] max-[800px]:border-[2px] max-[800px]:gap-[20px] max-[460px]:w-[200px]
 }
-/* max-[550px]:gap-[20px] max-[370px]:gap-[16px] */
 .ContactTitle{
   @apply w-[250px] text-[30px] max-[800px]:text-center max-[800px]:w-[100%] max-[800px]:text-[24px]
 }
-/* ax-[550px]:w-[122px] max-[550px]:text-[15px] max-[370px]:w-[98px] max-[370px]:text-[12px] */
 .ContactNameBox{
   @apply w-[250px] flex justify-start items-center text-[20px] text-[white] font-[500] max-[800px]:justify-center max-[800px]:w-[100%] max-[800px]:text-[17px] max-[460px]:text-[13px]
 }
-/* max-[550px]:w-[122px] max-[550px]:text-[10px] max-[370px]:w-[98px] max-[370px]:text-[8px]  */
 .ContactNameCircle{
   @apply size-[40px] flex justify-center items-center border-[2px] border-[white] rounded-full max-[800px]:text-[20px]  max-[800px]:font-[300] max-[800px]:border-[1px] 
 }
-/* max-[550px]:size-[20px] max-[550px]:text-[10px] max-[370px]:size-[16px] max-[370px]:text-[8px] */
 
 
 .animate-moveUp{

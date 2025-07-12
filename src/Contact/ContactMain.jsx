@@ -9,33 +9,28 @@ const ContactMain = () => {
             <div>
             
             <div className='w-[1000px] h-auto py-[50px] border-[5px] border-[#18C2D1] rounded-[20px] flex flex-col items-center text-[#18C2D1]  gap-[30px] animate-scaleUp max-[1150px]:w-[800px] max-[950px]:w-[700px] max-[950px]:gap-[20px] max-[950px]:py-[30px] max-[800px]:w-[500px] max-[800px]:gap-[20px] max-[550px]:w-[400px] max-[460px]:w-[350px] max-[460px]:border-[4px] max-[400px]:w-[300px]' style={{ animationDuration: '1.5s' }}>
-            {/* max-[550px]:border-[3px] max-[370px]:w-[264px] max-[370px]:gap-[10px] max-[370px]:py-[20px]  */}
 
                 <div className='text-[45px] font-[600]  max-[800px]:text-[50px] max-[460px]:text-[40px]'>Contact Me</div>
-                {/* max-[550px]:text-[25px] max-[370px]:text-[20px] */}
 
                 <div className='w-auto h-auto flex flex-col justify-between items-center gap-[30px] max-[800px]:gap-[20px]'>
-                {/* max-[370px]:gap-[10px] */}
 
-                    <div className='ContactRow '>
+                    <a href="https://linkedin.com/in/huzaifa-aslam-4845152aa/" className='ContactRow '>
                         <span className='ContactTitle'>Linkedin Profile</span>
                         <div className='ContactNameBox '>
                             <div className='ContactNameCircle '>
                                 in
                             </div>
                         </div>
-                    </div>
+                    </a>
 
-                    <div className='ContactRow'>
+                    <a href="https://x.com/huzaifaaslam99" className='ContactRow'>
                         <span className='ContactTitle'>X Account</span>
                         <div className='ContactNameBox'>
                             <div className='ContactNameCircle'>
                                 <img src={x} className='w-[20px]' alt="" />
-                                {/* max-[550px]:w-[10px] max-[370px]:w-[8px] */}
                             </div>
                         </div>
-                    </div>
-
+                    </a>
 
                     <div className='ContactRow'>
                         <span className='ContactTitle'>Email Address</span>

@@ -83,7 +83,9 @@ const ProjectsMain = () => {
 
                     <a href="https://product-order-cart.vercel.app" className='ProjectTitle '>Food Cart Menu</a>
                     <div className='ProjectTitleText '>
-                        This project is a dynamic, single-page web application designed to simulate a food cart menu system. Users can browse through a variety of food items, add them to their virtual cart, and remove items as needed. Once the purchase is completed, the application displays a summary of the selected items, providing users with a clear overview of their purchase. The interface is user-friendly and interactive. The project is ideal for showcasing the ability to implement e-commerce features such as item selection, cart management, and order summary in a web application
+                        This project is a dynamic single-page web application that simulates a food cart system. Users can browse items, add or remove them from the cart, and view a summary after checkout. It showcases key e-commerce features like item selection, cart management, and order review through an interactive and user-friendly interface. The design emphasizes smooth user flow and real-time cart updates.
+
+
                     </div>
 
                     <div className='w-[100%] px-[20px] flex justify-between'>
@@ -111,17 +113,19 @@ const ProjectsMain = () => {
                     </a>
                     <a href="https://ai-ortho-scan.vercel.app/" className='ProjectTitle '>AI Ortho Scanner</a>
                     <div className='ProjectTitleText '>
-                        This project is a secure web application that leverages AI for analyzing medical X-ray scans. Users must sign up and log in for verification before uploading their X-ray images. Once uploaded, the AI processes the scan, providing a detailed diagnosis of the condition shown in the image. It also offers treatment recommendations based on the detected issues. The application aims to provide a reliable, AI-powered diagnostic tool for medical professionals, improving the speed and accuracy of diagnosis and treatment suggestions.
+                          This project is a secure front-end web application that simulates an AI-based medical X-ray analysis system. Users can sign up, log in, and upload X-ray images through a streamlined interface. The application demonstrates the workflow and user experience of an AI-powered diagnostic tool, showcasing how medical professionals might interact with such a system for efficient diagnosis and treatment planning.
                     </div>
 
                     <div className='w-[100%] px-[20px] flex justify-between max-[950px]:flex-col max-[950px]:items-center max-[950px]:gap-[10px]'>
 
                         <div className='flex gap-[20px] items-center'>
-                            <img src={react} className='ProjectSkills' alt="" />
+                            <img src={html} className='ProjectSkills' alt="" />
                             <img src={tailwind} className='ProjectSkills !size-[30px] max-[1170px]:!size-[24px] max-[450px]:!size-[19px] max-[360px]:!size-[17px]' alt="" />
-                            <img src={NodeJs} className='ProjectSkills !w-[60px] max-[1170px]:!w-[48px] max-[450px]:!w-[38px] max-[360px]:w-[34px]' alt="" />
+                            <img src={react} className='ProjectSkills' alt="" />
+                            
+                            {/* <img src={NodeJs} className='ProjectSkills !w-[60px] max-[1170px]:!w-[48px] max-[450px]:!w-[38px] max-[360px]:w-[34px]' alt="" />
                             <img src={ExpressJs} className='ProjectSkills' alt="" />
-                            <img src={MongoDB} className='ProjectSkills' alt="" />
+                            <img src={MongoDB} className='ProjectSkills' alt="" /> */}
 
 
                         </div>
@@ -144,14 +148,3 @@ const ProjectsMain = () => {
 export default ProjectsMain
 
 
-// This YouTube clone is a visually captivating and highly functional web application that replicates the core design and user interface of the popular video streaming platform. The clone offers a seamless browsing experience, showcasing a modern layout, responsive design, and dynamic components
-
-// This project is a dynamic, single-page web application designed to simulate a food cart menu system. Users can browse through a variety of food items, add them to their virtual cart, and remove items as needed. Once the purchase is completed, the application displays a summary of the selected items, providing users with a clear overview of their purchase. The interface is user-friendly and interactive. The project is ideal for showcasing the ability to implement e-commerce features such as item selection, cart management, and order summary in a web application
-
-{/* <img src={react} className='w-[40px]' alt="" />
-<img src={tailwind} className='size-[30px]' alt="" />
-<img src={NodeJs} className='w-[60px]' alt="" />
-<img src={ExpressJs} className='w-[40px]' alt="" />
-<img src={MongoDB} className='w-[40px]' alt="" /> */}
-
-// This project is a secure web application that leverages AI for analyzing medical X-ray scans. Users must sign up and log in for verification before uploading their X-ray images. Once uploaded, the AI processes the scan, providing a detailed diagnosis of the condition shown in the image. It also offers treatment recommendations based on the detected issues. The application aims to provide a reliable, AI-powered diagnostic tool for medical professionals, improving the speed and accuracy of diagnosis and treatment suggestions.
