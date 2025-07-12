@@ -4,9 +4,11 @@ import css from "../images/css.png"
 import tailwind from "../images/tailwind.png"
 import js from "../images/js.png"
 import react from "../images/react.png"
-import NodeJs from "../images/nodejs.png"
-import ExpressJs from "../images/express.png"
+import java from "../images/java.png"
 import MongoDB from "../images/mongoDB.png"
+import c from "../images/c++.png"
+
+
 
 
 
@@ -33,7 +35,7 @@ const SkillsMain = () => {
           <img src={tailwind} className='SkillsBox max-[800px]:w-[80px] max-[410px]:w-[64px]' alt="" />
           Tailwind CSS
         </div>
-        {/*  max-[600px]:w-[64px] */}
+
         <div className='SkillsMainBox animate-scaleUp'>
           <img src={js} className='SkillsBox'  alt="" />
           JavaScript
@@ -45,13 +47,13 @@ const SkillsMain = () => {
         </div>
 
         <div className='SkillsMainBox animate-scaleUp'>
-          <img src={NodeJs} className='SkillsBox'  alt="" />
-          Node Js
+          <img src={java} className='SkillsBox'  alt="" />
+          Java
         </div>
 
         <div className='SkillsMainBox animate-scaleUp'>
-          <img src={ExpressJs} className='SkillsBox'  alt="" />
-          Express Js
+          <img src={c} className='SkillsBox'  alt="" />
+          C++
         </div>
 
         <div className='SkillsMainBox animate-scaleUp'>
